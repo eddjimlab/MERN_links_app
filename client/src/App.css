@@ -1,0 +1,28 @@
+.btn.grey.lighten-1.black-text {
+    margin-left: 10px;
+}
+
+.input-field label {
+    color: #fff;
+}
+
+.input-field input[type=text]:focus + label,
+.input-field input[type=password]:focus + label {
+    color: #ffeb3b !important;
+}
+
+.input-field input[type=text]:focus,
+.input-field input[type=password]:focus {
+    border-bottom: 1px solid #ffeb3b !important;
+    box-shadow: 0 1px 0 0 #ffeb3b !important;
+}
+
+
+/*fix input color*/
+
+.mainHeader {
+    font-size: 4vw;
+    /*font-size: calc(4vw - 0.2rem);*/
+}
+
+
